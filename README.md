@@ -1,4 +1,8 @@
 
+# What it does? 
+
+You can create dynamic form in web and render it in Mobile.  i.e You may collect any data via mobile  (Eg. Collecting Health records, Survey's etc).  The system allow you to create your own form.  You can also have sample forms or save template for future use.  It is part of our project.  Happy data capturing using mobile.
+
 ## Development
 
 * Run `yarn install` and `yarn start`
