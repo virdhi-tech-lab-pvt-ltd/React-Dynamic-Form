@@ -1,0 +1,318 @@
+[{
+  "formFields": [{
+      "id": "TextField_0",
+      "category": "basic",
+      "firstName":"",
+      "labelName":"firstName",
+      "fieldName": "First Name",
+      "fieldType": "TextField",
+      "important": 5,
+			"value":"",
+      "mandatory": true
+    },
+    {
+      "id": "TextField_1",
+      "category": "basic",
+      "lastName":"",
+      "labelName":"lastName",
+      "fieldName": "Last Name",
+      "fieldType": "TextField",
+			"value":"kop",
+      "important": 5,
+      "mandatory": false
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "gender":"",
+      "labelName":"gender",
+      "fieldName": "Gender",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": true,
+			"options": [
+        "Male",
+        "Female",
+        "Trans"
+      ]
+    },
+		{
+      "id": "DatePicker_0",
+      "category": "basic",
+      "labelName":"dateOfBirth",
+      "fieldName": "Date Of Birth",
+      "fieldType": "DatePicker",
+			"value":"",
+      "important": 5,
+      "mandatory": false
+    },
+		{
+			"id": "NumberField_0",
+			"category": "basic",
+      "mobileNumber":"",
+      "labelName":"mobileNumber",
+			"fieldName": "Mobile Number",
+      "value":"",
+			"fieldType": "NumberField",
+			"important": 5,
+			"mandatory": true
+		},
+    {
+      "id": "TextField_1",
+      "category": "basic",
+      "emailId":"",
+      "labelName":"emailId",
+      "fieldName": "Email ID",
+      "fieldType": "TextField",
+			"value":"",
+      "important": 5,
+      "mandatory": true
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName":"country",
+      "fieldName": "Country",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": []
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName" : "state",
+      "fieldName": "State",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": []
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName":"district",
+      "fieldName": "District",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": []
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName" :"type",
+      "fieldName": "Type",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": [
+        "Admin",
+        "User"
+      ]
+    },
+		{
+			"id": "NumberField_0",
+			"category": "basic",
+      "labelName" : "pinCide",
+			"fieldName": "Pin Code",
+			"fieldType": "NumberField",
+      "value":"",
+			"important": 5,
+			"mandatory": false
+		},
+		{
+	      "id": "TextField_0",
+	      "category": "basic",
+        "labelName" : "address",
+	      "fieldName": "Address",
+	      "fieldType": "TextField",
+	      "important": 5,
+				"value":"",
+	      "mandatory": false
+	    },
+			{
+		  "id": "TextField_0",
+		  "category": "basic",
+		  "profileImage": "ads",
+		  "labelName": "uploadImage",
+		  "fieldName": "Upload Image",
+		  "fieldType": "ImageUpload",
+		  "important": 5,
+		  "value": "",
+		  "mandatory": false
+		},
+	    {
+	      "id": "DropDown_0",
+	      "category": "general",
+        "labelName":"selectGroup",
+	      "fieldName": "Select Group",
+	      "fieldType": "DropDown",
+				"value":[],
+	      "important": 5,
+	      "mandatory": false,
+				"options": []
+	    }
+  ],
+  "organizationId": 1,
+  "id" : 1
+},
+{
+  "formFields": [{
+      "id": "TextField_0",
+      "category": "basic",
+      "firstName":"",
+      "labelName":"firstName",
+      "fieldName": "First Name",
+      "fieldType": "TextField",
+      "important": 5,
+			"value":"",
+      "mandatory": true
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "gender":"",
+      "labelName":"gender",
+      "fieldName": "Gender",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": true,
+			"options": [
+        "Male",
+        "Female",
+        "Trans"
+      ]
+    },
+		{
+      "id": "DatePicker_0",
+      "category": "basic",
+      "labelName":"dateOfBirth",
+      "fieldName": "Date Of Birth",
+      "fieldType": "DatePicker",
+			"value":"",
+      "important": 5,
+      "mandatory": false
+    },
+		{
+			"id": "NumberField_0",
+			"category": "basic",
+      "mobileNumber":"",
+      "labelName":"mobileNumber",
+			"fieldName": "Mobile Number",
+      "value":"",
+			"fieldType": "NumberField",
+			"important": 5,
+			"mandatory": true
+		},
+    {
+      "id": "TextField_1",
+      "category": "basic",
+      "emailId":"",
+      "labelName":"emailId",
+      "fieldName": "Email ID",
+      "fieldType": "TextField",
+			"value":"",
+      "important": 5,
+      "mandatory": true
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName":"country",
+      "fieldName": "Country",
+      "fieldType": "DropDown",
+			"value":"India",
+      "important": 5,
+      "mandatory": false,
+			"options": []
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName" : "state",
+      "fieldName": "State",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": []
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName":"district",
+      "fieldName": "District",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": []
+    },
+    {
+      "id": "DropDown_0",
+      "category": "general",
+      "labelName" :"type",
+      "fieldName": "Type",
+      "fieldType": "DropDown",
+			"value":"",
+      "important": 5,
+      "mandatory": false,
+			"options": [
+        "Admin",
+        "User"
+      ]
+    },
+		{
+			"id": "NumberField_0",
+			"category": "basic",
+      "labelName" : "pinCide",
+			"fieldName": "Pin Code",
+			"fieldType": "NumberField",
+      "value":"",
+			"important": 5,
+			"mandatory": false
+		},
+		{
+	      "id": "TextField_0",
+	      "category": "basic",
+        "labelName" : "address",
+	      "fieldName": "Address",
+	      "fieldType": "TextField",
+	      "important": 5,
+				"value":"",
+	      "mandatory": false
+	    },
+			{
+		  "id": "TextField_0",
+		  "category": "basic",
+		  "profileImage": "ads",
+		  "labelName": "uploadImage",
+		  "fieldName": "Upload Image",
+		  "fieldType": "ImageUpload",
+		  "important": 5,
+		  "value": "Image Illa",
+		  "mandatory": false
+		},
+	    {
+	      "id": "DropDown_0",
+	      "category": "general",
+        "labelName":"selectGroup",
+	      "fieldName": "Select Group",
+	      "fieldType": "DropDown",
+				"value":[],
+	      "important": 5,
+	      "mandatory": false,
+				"options": []
+	    }
+  ],
+  "organizationId": 1,
+  "id" : 1
+}
+]

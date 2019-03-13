@@ -1,0 +1,42 @@
+{
+  "subScope": {
+    "id": "http://www.chrysalis.com/schemas/subscope#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "keyQuestions": {
+        "type": "string",
+        "minLength": 1
+      },
+      "coreIdea": {
+        "type": "string",
+        "minLength": 1
+      },
+      "class": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type":"number"
+          }
+        },
+        "required": [
+          "name",
+          "id"
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "keyQuestions",
+      "coreIdea",
+      "class"
+    ]
+  }
+}

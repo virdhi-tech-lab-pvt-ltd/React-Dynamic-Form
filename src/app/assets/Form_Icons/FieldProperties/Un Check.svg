@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Un Check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form-Creation-5" transform="translate(-152.000000, -194.000000)" stroke-width="0.5" stroke="#9B9B9B">
+            <g id="Content" transform="translate(-2.000000, 99.000000)">
+                <g id="Field-Header" transform="translate(1.000000, 0.000000)">
+                    <g id="Maximum-Characters" transform="translate(15.000000, 89.000000)">
+                        <circle id="Un-Check" cx="146.5" cy="14.5" r="7.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

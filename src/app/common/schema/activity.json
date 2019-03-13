@@ -1,0 +1,111 @@
+{
+  "activity": {
+    "id": "http://www.chrysalis.com/schemas/activity#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "lesson": {
+        "type": "number"        
+      },
+      "activityType": {
+        "type": "number"        
+      },
+      "judgementStatements": {
+        "type": "array" ,
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "properties": {
+            "elo": {
+              "type": "object"          
+            },
+            "successCriteria": {
+              "type": "object"
+            },
+            "questions": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }               
+      },
+      "skillJudgementStatements": {
+        "type": "array" ,
+        "items": {
+          "type": "object",
+          "properties": {
+            "skill": {
+              "type": "object"          
+            },
+            "questions": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "activityDetail": {
+        "type": "object",
+        "properties": {
+          "activityType": {
+            "type": "number" ,
+            "minimum": 1          
+          },
+          "collaborationType": {
+            "type":"number",
+            "minimum": 1
+          },
+          "questionType": {
+            "type":"number",
+            "minimum": 1
+          },
+          "mI":{
+            "type": "array" ,
+            "minItems": 1,
+            "items": {
+            "type": "number"           
+            }           
+          },
+          "location":{
+            "type":"number",
+            "minimum": 1
+          },
+          "source":{
+            "type":"number",
+            "minimum": 1
+          },
+          "homeFun":{
+            "type":"number",
+            "minimum": 1
+          },
+          "activityNo":{
+            "type": "string",
+            "minLength": 1           
+          },
+          "additionalMaterials":{
+            "type":"string"            
+          }
+        },
+          "required": [
+            "activityType",
+            "collaborationType",
+            "questionType",
+            "mI",
+            "location",
+            "source",
+            "activityNo"
+          ]
+        
+      }
+    },
+      "required": [
+        "name",
+        "lesson",
+        "activityType",
+        "judgementStatements"
+      ]
+  }
+}

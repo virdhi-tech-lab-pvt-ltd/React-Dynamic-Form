@@ -1,0 +1,12 @@
+{
+  "headerMenuText": {
+    "itemThree": "Admin",
+    "itemOne": "Survey",
+    "itemFour": "Forms",
+    "itemTwo": "Contacts"
+  },
+  "submenu": {
+    "subItemOne": "ContactList",
+    "subItemTwo": "ContactForm"
+  }
+}

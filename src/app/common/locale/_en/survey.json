@@ -1,0 +1,104 @@
+{
+  "survey_tab": {
+    "tab1": "Survey",
+    "tab2": "Forms"
+  },
+  "survey_form":{
+    "title":{
+      "label":"Survey Title",
+      "placeholder":"Enter",
+      "keyName":"surveyTitle",
+      "errorText":"Enter survey title...*"
+    },
+    "description":{
+      "label":"Description",
+      "placeholder":"Enter description",
+      "keyName":"description",
+      "errorText":"Enter survey description...*"
+    },
+    "startDate":{
+      "label":"Start Date",
+      "placeholder":"Pick Date",
+      "keyName":"startDate",
+      "errorText":"Select start date...*"
+    },
+    "endDate":{
+      "label":"End Date",
+      "placeholder":"Pick Date",
+      "keyName":"endDate",
+      "errorText":"Select end date...*"
+    },
+    "startTime":{
+      "label":"Start Time",
+      "placeholder":"Pick Time",
+      "keyName":"startTime",
+      "errorText":"Select start time...*"
+    },
+    "endTime":{
+      "label":"End Time",
+      "placeholder":"Pick Time",
+      "keyName":"endTime",
+      "errorText":"Select end time...*"
+    },
+    "contry":{
+      "label":"Country",
+      "placeholder":"Select",
+      "keyName":"country",
+      "errorText":"Select country...*"
+    },
+    "state":{
+      "label":"State",
+      "placeholder":"Select",
+      "keyName":"state",
+      "errorText":"Select state...*"
+    },
+    "district":{
+      "label":"City",
+      "placeholder":"Select",
+      "keyName":"city",
+      "errorText":"Select city...*"
+    },
+    "pinCode":{
+      "label":"Pin Code",
+      "placeholder":"Enter",
+      "keyName":"pincode",
+      "errorText":"Enter your pincode...*"
+    },
+    "venue":{
+      "label":"Venue",
+      "placeholder":"Enter venue",
+      "keyName":"venue",
+      "errorText":"Enter your venue...*"
+    },
+    "storage":{
+      "label":"Offline Storage In Mobile",
+      "placeholder":"Offline Storage In Mobile",
+      "keyName":"offline",
+      "errorText":"select offline...*"
+    },
+    "location":{
+      "label":"Capture Current Location",
+      "placeholder":"Capture Current Location",
+      "keyName":"currentLocations",
+      "errorText":"Select currentLocations...*"
+    },
+    "checkList":{
+      "label":"Checklist For Survey",
+      "placeholder":"Enter",
+      "keyName":"firstName",
+      "errorText":"Enter your firstname...*"
+    },
+    "expense":{
+      "label":"Allocated Expense",
+      "placeholder":"Enter",
+      "keyName":"allocatedExpenses",
+      "errorText":"Enter your allocatedExpenses...*"
+    },
+    "target":{
+      "label":"Target",
+      "placeholder":"Enter",
+      "keyName":"target",
+      "errorText":"Enter your target...*"
+    }
+  }
+}

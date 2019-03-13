@@ -1,0 +1,88 @@
+{
+  "firstName":{
+    "label":"First Name",
+    "placeholder":"Enter your firstname",
+    "keyName":"firstName",
+    "errorText":"Enter your firstname...*"
+  },
+  "lastName":{
+    "label":"Last Name",
+    "placeholder":"Enter your lastname",
+    "keyName":"lastName",
+    "errorText":"Enter your lastname...*"
+  },
+  "gender":{
+    "label":"Gender",
+    "placeholder":"Select",
+    "keyName":"gender",
+    "errorText":"Select your gender...*"
+  },
+  "dob":{
+    "label":"Date Of Birth",
+    "placeholder":"DD/MM/YYYY",
+    "keyName":"dob",
+    "errorText":"Select your DOB...*"
+  },
+  "mobileNumber":{
+    "label":"Mobile Number",
+    "placeholder":"Enter your mobile number",
+    "keyName":"mobileNumber",
+    "errorText":"Enter your 10 digit mobile number...*"
+  },
+  "emailId":{
+    "label":"Email Id",
+    "placeholder":"Mail@example.com",
+    "keyName":"emailId",
+    "errorText":"Enter your valid Email Id...*"
+  },
+  "type":{
+    "label":"User type",
+    "placeholder":"Select",
+    "keyName":"type",
+    "errorText":"Enter user type...*"
+  },
+  "country":{
+    "label":"Country",
+    "placeholder":"Select",
+    "keyName":"country",
+    "errorText":"Select your country...*"
+  },
+  "state":{
+    "label":"State",
+    "placeholder":"Select",
+    "keyName":"state",
+    "errorText":"Select your state...*"
+  },
+  "profileImage":{
+    "label":"Profile Image",
+    "placeholder":"Upload",
+    "keyName":"profileImage",
+    "errorText":"Select your profileimage...*"
+  },
+  "city":{
+    "label":"City",
+    "placeholder":"Select",
+    "keyName":"city",
+    "errorText":"Select your city...*"
+  },
+  "pinCode":{
+    "label":"Pin Code",
+    "placeholder":"Enter pincode",
+    "keyName":"pincode",
+    "errorText":"Enter your pincode...*"
+  },
+  "address":{
+    "label":"Address",
+    "placeholder":"Enter address",
+    "keyName":"address",
+    "errorText":"Enter your address...*"
+  },
+  "groups":{
+    "label":"Select Group",
+    "placeholder":"Select ",
+    "keyName":"groups",
+    "errorText":"Enter your groups...*"
+  }
+
+
+}

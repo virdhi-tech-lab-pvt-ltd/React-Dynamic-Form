@@ -1,0 +1,8 @@
+{
+  "row" : {
+    "groupName":"Group Name",
+    "description": "Description",
+    "users": "Users",
+    "actions":"Actions"
+  }
+}

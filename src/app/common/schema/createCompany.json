@@ -1,0 +1,38 @@
+{
+  "id": "dk-admin/createCompany",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assessmentsPurchased": {
+      "type":"integer",
+      "minimum":1000,
+      "maximum":5000,
+      "multipleOf":1000
+    },
+    "logins": {
+      "type": "array",
+      "maxItems": 1,
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "email": {
+            "format": "email"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "name",
+    "assessmentsPurchased",
+    "logins"
+  ]
+}

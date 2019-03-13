@@ -1,0 +1,14 @@
+{
+  "groupName":{
+    "label":"Group Name",
+    "placeholder":"Enter group name...",
+    "keyName":"name",
+    "errorText":"Enter group name...*"
+  },
+  "description":{
+    "label":"Description",
+    "placeholder":"Enter group description...",
+    "keyName":"description",
+    "errorText":"Enter group description...*"
+  }
+}

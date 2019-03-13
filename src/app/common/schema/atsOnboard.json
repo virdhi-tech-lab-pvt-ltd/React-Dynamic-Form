@@ -1,0 +1,24 @@
+{
+  "id": "dk-admin/atsOnboard",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+     "email": {
+      "format": "email"
+    },
+    "assessmentsPurchased": {
+      "type":"integer",
+      "minimum":1000,
+      "maximum":5000,
+      "multipleOf":1000
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "assessmentsPurchased"
+  ]
+}

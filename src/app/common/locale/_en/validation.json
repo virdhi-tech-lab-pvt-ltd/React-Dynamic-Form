@@ -1,0 +1,5 @@
+{
+  "user_form" : ["firstName" ,"lastName" ,"gender","mobileNumber" , "emailId" , "type"  ],
+  "user_group_form" : ["name"],
+  "survey_form" : ["surveyTitle" , "startDate" , "endDate" , "startTime" , "endTime" , "allocatedExpenses"]
+}

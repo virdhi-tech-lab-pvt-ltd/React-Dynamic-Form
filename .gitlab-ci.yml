@@ -1,0 +1,21 @@
+image: node:8.1.2-alpine
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script:
+    - npm install -g yarn
+    - yarn
+  only:
+    - branches
+deploy:
+  stage: deploy
+  script:
+    - npm install -g yarn
+    - yarn
+    - yarn deploy
+  only:
+    - staging

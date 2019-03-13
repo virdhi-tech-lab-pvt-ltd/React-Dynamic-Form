@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Multi Select</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form-Creation-1.1" transform="translate(-27.000000, -222.000000)">
+            <g id="Fields" transform="translate(24.000000, 144.000000)">
+                <g id="Multi-Select" transform="translate(0.000000, 75.000000)">
+                    <g transform="translate(3.000000, 3.000000)">
+                        <rect id="Rectangle-5" fill-opacity="0.5" fill="#F5A623" x="0" y="0" width="25" height="25" rx="1"></rect>
+                        <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.000000, 6.000000)" stroke="#FFFFFF">
+                            <polygon id="Shape" points="0.0890217391 7.94435417 5.36447826 7.94435417 5.36447826 13 0.0890217391 13"></polygon>
+                            <polygon id="Shape" points="0.0890217391 0 5.36447826 0 5.36447826 5.05564583 0.0890217391 5.05564583"></polygon>
+                            <polyline id="Shape" points="8.3428913 2.60325 9.81302174 4.012125 12.9109783 1.04325"></polyline>
+                            <polyline id="Shape" points="8.3428913 10.547875 9.81302174 11.95675 12.9109783 8.987875"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

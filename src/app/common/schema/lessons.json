@@ -1,0 +1,121 @@
+{
+  "lessons": {
+    "id": "http://www.chrysalis.com/schemas/lessons#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "serialNo": {
+        "type": "number",
+        "minimum": 1,
+        "maximum": 20
+      },
+      "bigQuestion": {
+        "type": "string",
+        "minLength": 1
+      },
+      "theme": {
+        "type": "string",
+        "minLength": 1
+      },
+      "genre": {
+        "type": "string",
+        "minLength": 1
+      },
+      "form": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type":"number"
+          }
+        },
+        "required": [
+          "name",
+          "id"
+        ]
+      },
+      "style": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type":"number"
+          }
+        },
+        "required": [
+          "name",
+          "id"
+        ]
+      },
+      "synopsis": {
+        "type": "string",
+        "minLength": 1
+      },
+      "elos": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {  
+              "type": "string",
+              "minLength": 1         
+            },
+            "successCriterias": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                "name": {  
+                  "type": "string",
+                  "minLength": 1         
+                },
+                "soloLevel": {
+                  "type":"number"
+                },
+                "id": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "name",
+                "id",
+                "soloLevel"
+              ]
+              }
+            },
+            "id": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "name",
+            "successCriterias",
+            "id"
+          ]
+        }
+      }
+    },
+    "required": [
+          "name",
+          "serialNo",
+          "bigQuestion",
+          "elos",
+          "theme",
+          "genre",
+          "form",
+          "style",
+          "synopsis"
+  ]
+  }
+}

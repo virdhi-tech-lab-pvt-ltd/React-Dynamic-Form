@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../app/assets/font/Roboto-Regular.ttf') format('ttf'), url('../app/assets/font/Roboto-Regular.woff2') format('woff2'), url('../app/assets/font/Roboto-Bold.ttf') format('ttf'), url('../app/assets/font/Roboto-Bold.woff2') format('woff2'), url('../app/assets/font/Roboto-Medium.ttf') format('ttf'), url('../app/assets/font/Roboto-Medium.woff2') format('woff2');
+}
+
+
+/*@font-face {
+  font-family: 'Comfortaa';
+  src:url('../app/assets/font/Comfortaa-Regular.ttf') format('ttf'),
+      url('../app/assets/font/Comfortaa-Regular.woff2') format('woff2'),
+      url('../app/assets/font/Comfortaa-Bold.ttf') format('ttf'),
+      url('../app/assets/font/Comfortaa-Bold.woff2') format('woff2');
+}*/
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+  -webkit-text-fill-color: none;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.rotate {
+  /* FF3.5+ */
+  -moz-transform: rotate(-90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90.0deg);
+  /* IE6,IE7 */
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* Standard */
+  transform: rotate(-90.0deg);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    border-width: thin;
+}
+
+input[type="date"]::-moz-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    border-width: thin;
+}
+
+
+.loginBackgroundImage {
+  background: url('static/media/backgroundImage.e6583379.png');
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.loginBackgroundImage::before {
+  content: "";
+  /* display: block; */
+  position: absolute;
+  z-index: -1;
+  /* width: 100%;
+  height: 100%; */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.dropdown {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px !important;
+  display: block;
+  width: 100%;
+  height: 2rem !important;
+  padding: 12px !important;
+  min-height: 3rem !important;
+  min-width: 0;
+}
+
+.Date_Picker>.field>.input>input {
+  padding: 10px !important;
+  font-size: 16px !important;
+  color: #c8c8c8 !important;
+}
+
+.multiple {
+  padding: 5px !important;
+}
+
+.required label:after {
+  color: #e32;
+  content: ' *';
+}
+.childrens{
+  margin-top: 5rem;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+tr {
+  border-bottom: '0px';
+}
+
+td {
+  padding-right: '0px' !important;
+}
+
+.h1 {
+  color: #343434 !important;
+  font-size: 1.375rem !important;
+}
+
+.H2 {
+  font-size: 1.5rem !important;
+}
+
+.H3 {
+  font-size: 1.2rem !important;
+  padding: 1.5rem !important;
+}
+
+.h4 {
+  font-size: 0.9375rem !important;
+}
+
+.h5 {
+  font-size: 0.875rem !important;
+}
+
+.h6 {
+  font-size: 0.75rem !important;
+}
+
+.fs {
+  font-size: 1.5rem !important;
+}
+
+.small {
+  font-size: 0.7rem !important;
+}
+
+.w11 {
+  width: 11%;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.login-button {
+  border-radius: 75px !important;
+  text-transform: capitalize !important;
+  background-color: #00A99D !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+table, th, td, tr {
+  vertical-align: middle !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+  color: #333;
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.5;
+  color: black;
+  background: #CCC;
+}
+
+.headerBackground {
+  background-color: #e8e8e8;
+}
+
+.cut-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.py-c1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  box-shadow: '2px 2px 15px rgba(0,0,0,0.65)';
+}
+
+.tooltip .tooltiptext {
+  visibility: visible;
+  width: 100px;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border-radius: 2px;
+  padding: 7px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress-text {
+  position: absolute;
+  top: 45%;
+  left: 52.4%;
+  transform: translate(-50%, -50%);
+}
+
+.progress-indicator {
+  position: absolute;
+  top: 9px;
+  left: 36.5%;
+}
+
+body {
+  quotes: '\201c' '\201d';
+}
+
+open:before {
+  content: open-quote;
+}
+
+open:after {
+  content: close-quote;
+}
+
+.left-align {
+  float: left;
+}
+
+.right-align {
+  float: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.over-flow-y {
+  overflow-y: auto;
+}
+
+.move {
+  cursor: move;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.icon, svg {
+  cursor: pointer;
+}
+
+.over-flow-y::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px transparent;
+}
+
+.over-flow-y::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+.over-flow-y::-webkit-scrollbar-thumb {
+  background-color: #d5d5d5;
+  outline: 0.2px solid #FFFFFF;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  float: left;
+  margin: 0px;
+}
+
+.Date_Picker>.field {
+  padding: .5rem 1.5rem;
+}
+
+.Date_Picker>.field>.input>input {
+  padding: 10px !important;
+  font-size: 16px !important;
+  color: #c8c8c8 !important;
+}

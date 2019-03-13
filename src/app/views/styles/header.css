@@ -1,0 +1,95 @@
+.menu-header {
+  background: #fff;
+  height: 4rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .1), 0 1px 5px rgba(0, 0, 0, .1);
+  z-index: 10;
+}
+
+.active-menu {
+  font-size: 1.3rem;
+  color: #fff;
+  border-bottom: 1.7px solid #fff;
+}
+
+.inactive-menu {
+  font-size: 1.3rem;
+}
+
+.department-menu {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin: 16px 32px 16px 0;
+}
+
+/*Header menu*/
+
+.tab_menu, .sub_menu1, .sub_menu2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub_menu1>li:hover, .sub_menu2>li:hover {
+  background-color: #f1f1f1;
+}
+
+.tab_menu li {
+  display: block;
+  position: relative;
+  float: left;
+  /*padding: 1.3rem;*/
+}
+
+li ul {
+  display: none;
+}
+
+.tab_menu >li>a {
+
+}
+
+ul li a:hover {
+  color: #fff;
+  /*font-weight: 600;*/
+}
+
+li:hover>ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li {
+  float: none;
+}
+
+.tab_menu>li:hover {
+  background: none;
+  font-weight: 600;
+  color: #fff !important;
+  border-bottom: 3px solid #fff;
+}
+
+li:hover li a:hover {
+  background: none;
+}
+
+.main-navigation li ul li {
+  border-top: 0;
+}
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+ul:before, ul:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+ul:after {
+  clear: both;
+}
